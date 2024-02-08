@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -40,17 +43,34 @@
     background-color: green;
 }
 
+.header_container h1{
+    font-family: 'Protest Strike', sans-serif;
+    color: white;
+    font-size: 2.5rem;
+}
+
+
 ul{
     list-style: none;
 }
 
 ul li{
     margin-left:1rem ;
+    font-weight: bolder;
 }
 
 ul a{
     text-decoration: none;
     color: white;
+}
+
+ .home{
+    color: black;
+}
+
+ul a:hover{
+    color: black;
+    transition: 0.5s;
 }
 
 .hero{
@@ -60,4 +80,32 @@ ul a{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+.hero h1{
+    color: #fff;
+    font-size: 5rem;
+    font-family: 'Cinzel', serif;
+}
+
+.hero p{
+    font-size: 2rem;
+    color: rgb(71, 218, 71);
+}
+
+button{
+    margin-top: 2.5rem;
+    height: 50px;
+    width: 130px;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: rgb(88, 212, 88);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover{
+    color: white;
 }
